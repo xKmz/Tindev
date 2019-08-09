@@ -7,12 +7,11 @@
  */
 
 import React, {Fragment} from 'react';
-import { Text } from 'react-native';
 
-const App = () => {
+import Routes from './routes';
+
+export default function App() {
   return (
-    <Text>Hello World!</Text>
+    <Routes />
   );
-};
-
-export default App;
+}
